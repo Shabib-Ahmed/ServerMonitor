@@ -1,0 +1,21 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Text Editor & IDE Temporary Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OpenWrt Runtime Temporary Logs
+*.log
+/tmp/
