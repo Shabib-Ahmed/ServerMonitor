@@ -1,8 +1,8 @@
 # ServerMonitor
 
-An OpenWRT shell package that monitors a home server and sends email alerts on state changes (up to down, down to up).
+Multiple scripts that monitor a home server and sends email alerts on state changes, (Temperature and Silent Reboots being worked on).
 
-Written to run on an old repurposed router with minimal dependencies and no daemons.
+Written to run on an old repurposed router with minimal dependencies.
 
 ## How it works
 
