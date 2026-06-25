@@ -1,11 +1,19 @@
 config settings 'settings'
-    option enabled '1'
-    option target_ip '192.168.1.50'
-    option target_port '8006'
-    
-    option smtp_host 'smtp.gmail.com'
-    option smtp_port '587'
-    option smtp_user 'temp@gmail.com'
-    option smtp_pass 'temp'
-    
-    option alert_recipient 'your_personal_email@gmail.com'
+    option enabled          '1'
+    option target_ip        '192.168.1.50'
+    option target_port      '8006'
+
+    # Proxmox API
+    option proxmox_node         'pve'
+    option api_token_id         'user@pam!token-name'
+    option api_token_secret     'your-token-here'
+    option temp_threshold       '80'
+    option poll_interval        '60'
+
+    # SMTP
+    option smtp_host        'smtp.gmail.com'
+    option smtp_port        '587'
+    option smtp_user        'temp@gmail.com'
+    option smtp_pass        'temp'
+
+    option alert_recipient  'your_personal_email@gmail.com'
